@@ -1,17 +1,4 @@
-
-def add(a:int, b:int) -> int:
-    '''
-
-    add a + b
-
-    :param a:
-    :param b:
-    :return: result
-    '''
-
-    return a + b
-
-
+from function import add
 
 if __name__ == '__main__':
 
@@ -20,6 +7,4 @@ if __name__ == '__main__':
     assert add(1, 3) == 4
 
     a, b = map(int, input(': ').split())
-    print(f'result {add(a, b)}')
-
-
+    print(f'result: {add(a, b)}')
