@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from function import add, sub
 
 if __name__ == '__main__':
@@ -17,3 +18,6 @@ if __name__ == '__main__':
 
     print(f'result: {add(a, b)}')
     print(f'result: {sub(a, b)}')
+=======
+print('Hello worldgit ')
+>>>>>>> parent of fc122b5 (create main structure)
